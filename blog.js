@@ -21,7 +21,7 @@ mongoose.connect('mongodb://localhost:27017/categoriesdb', {
 }, function (err) {
     if (err) return console.log(err);
     app.listen(3000,function () {
-            console.log('Server is running')
+            console.log('Server is running');
         });
 });
 
